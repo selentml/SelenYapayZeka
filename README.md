@@ -1,0 +1,2 @@
+# SelenYapayZeka
+SelenYapayZekaOdev
