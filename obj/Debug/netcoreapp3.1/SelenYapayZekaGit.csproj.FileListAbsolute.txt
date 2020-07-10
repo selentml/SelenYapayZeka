@@ -35,3 +35,6 @@ C:\Users\fun4c\RiderProjects\SelenYapayZekaGit\obj\Debug\netcoreapp3.1\SelenYapa
 C:\Users\fun4c\RiderProjects\SelenYapayZekaGit\obj\Debug\netcoreapp3.1\SelenYapayZekaGit.pdb
 C:\Users\fun4c\RiderProjects\SelenYapayZekaGit\obj\Debug\netcoreapp3.1\SelenYapayZekaGit.genruntimeconfig.cache
 C:\Users\fun4c\RiderProjects\SelenYapayZekaGit\obj\Debug\netcoreapp3.1\SelenYapayZekaGit.csproj.CopyComplete
+C:\Users\fun4c\RiderProjects\SelenYapayZekaGit\obj\Debug\netcoreapp3.1\Razor\Views\Anasayfa\Index.cshtml.g.cs
+C:\Users\fun4c\RiderProjects\SelenYapayZekaGit\obj\Debug\netcoreapp3.1\Razor\Views\Anasayfa\Test.cshtml.g.cs
+C:\Users\fun4c\RiderProjects\SelenYapayZekaGit\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AnasayfaLayout.cshtml.g.cs

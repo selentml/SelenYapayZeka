@@ -17,6 +17,7 @@
         </e>
       </e>
       <e p="Controllers" t="Include">
+        <e p="AnasayfaController.cs" t="Include" />
         <e p="HomeController.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
@@ -31,6 +32,7 @@
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="Pages" t="Include" />
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
@@ -41,17 +43,168 @@
       <e p="Views" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />
         <e p="_ViewStart.cshtml" t="Include" />
+        <e p="Anasayfa" t="Include">
+          <e p="Index.cshtml" t="Include" />
+          <e p="Test.cshtml" t="Include" />
+        </e>
         <e p="Home" t="Include">
           <e p="Index.cshtml" t="Include" />
           <e p="Privacy.cshtml" t="Include" />
         </e>
         <e p="Shared" t="Include">
+          <e p="_AnasayfaLayout.cshtml" t="Include" />
           <e p="_Layout.cshtml" t="Include" />
           <e p="_ValidationScriptsPartial.cshtml" t="Include" />
           <e p="Error.cshtml" t="Include" />
         </e>
       </e>
       <e p="wwwroot" t="Include">
+        <e p="Anasayfa" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap.min.css" t="Include" />
+            <e p="elegant-icons.css" t="Include" />
+            <e p="font-awesome.min.css" t="Include" />
+            <e p="jquery-ui.min.css" t="Include" />
+            <e p="nice-select.css" t="Include" />
+            <e p="owl.carousel.min.css" t="Include" />
+            <e p="slicknav.min.css" t="Include" />
+            <e p="style.css" t="Include" />
+          </e>
+          <e p="fonts" t="Include">
+            <e p="ElegantIcons.eot" t="Include" />
+            <e p="ElegantIcons.svg" t="Include" />
+            <e p="ElegantIcons.ttf" t="Include" />
+            <e p="ElegantIcons.woff" t="Include" />
+            <e p="fontawesome-webfont.eot" t="Include" />
+            <e p="fontawesome-webfont.svg" t="Include" />
+            <e p="fontawesome-webfont.ttf" t="Include" />
+            <e p="fontawesome-webfont.woff" t="Include" />
+            <e p="fontawesome-webfont.woff2" t="Include" />
+            <e p="FontAwesome.otf" t="Include" />
+          </e>
+          <e p="img" t="Include">
+            <e p="banner" t="Include">
+              <e p="banner-1.jpg" t="Include" />
+              <e p="banner-2.jpg" t="Include" />
+            </e>
+            <e p="blog" t="Include">
+              <e p="blog-1.jpg" t="Include" />
+              <e p="blog-2.jpg" t="Include" />
+              <e p="blog-3.jpg" t="Include" />
+              <e p="blog-4.jpg" t="Include" />
+              <e p="blog-5.jpg" t="Include" />
+              <e p="blog-6.jpg" t="Include" />
+              <e p="details" t="Include">
+                <e p="details-author.jpg" t="Include" />
+                <e p="details-hero.jpg" t="Include" />
+                <e p="details-pic.jpg" t="Include" />
+              </e>
+              <e p="sidebar" t="Include">
+                <e p="sr-1.jpg" t="Include" />
+                <e p="sr-2.jpg" t="Include" />
+                <e p="sr-3.jpg" t="Include" />
+              </e>
+            </e>
+            <e p="breadcrumb.jpg" t="Include" />
+            <e p="cart" t="Include">
+              <e p="cart-1.jpg" t="Include" />
+              <e p="cart-2.jpg" t="Include" />
+              <e p="cart-3.jpg" t="Include" />
+            </e>
+            <e p="categories" t="Include">
+              <e p="cat-1.jpg" t="Include" />
+              <e p="cat-2.jpg" t="Include" />
+              <e p="cat-3.jpg" t="Include" />
+              <e p="cat-4.jpg" t="Include" />
+              <e p="cat-5.jpg" t="Include" />
+            </e>
+            <e p="featured" t="Include">
+              <e p="feature-1.jpg" t="Include" />
+              <e p="feature-2.jpg" t="Include" />
+              <e p="feature-3.jpg" t="Include" />
+              <e p="feature-4.jpg" t="Include" />
+              <e p="feature-5.jpg" t="Include" />
+              <e p="feature-6.jpg" t="Include" />
+              <e p="feature-7.jpg" t="Include" />
+              <e p="feature-8.jpg" t="Include" />
+            </e>
+            <e p="hero" t="Include">
+              <e p="banner.jpg" t="Include" />
+            </e>
+            <e p="language.png" t="Include" />
+            <e p="latest-product" t="Include">
+              <e p="lp-1.jpg" t="Include" />
+              <e p="lp-2.jpg" t="Include" />
+              <e p="lp-3.jpg" t="Include" />
+            </e>
+            <e p="logo.png" t="Include" />
+            <e p="payment-item.png" t="Include" />
+            <e p="product" t="Include">
+              <e p="details" t="Include">
+                <e p="product-details-1.jpg" t="Include" />
+                <e p="product-details-2.jpg" t="Include" />
+                <e p="product-details-3.jpg" t="Include" />
+                <e p="product-details-4.jpg" t="Include" />
+                <e p="product-details-5.jpg" t="Include" />
+                <e p="thumb-1.jpg" t="Include" />
+                <e p="thumb-2.jpg" t="Include" />
+                <e p="thumb-3.jpg" t="Include" />
+                <e p="thumb-4.jpg" t="Include" />
+              </e>
+              <e p="discount" t="Include">
+                <e p="pd-1.jpg" t="Include" />
+                <e p="pd-2.jpg" t="Include" />
+                <e p="pd-3.jpg" t="Include" />
+                <e p="pd-4.jpg" t="Include" />
+                <e p="pd-5.jpg" t="Include" />
+                <e p="pd-6.jpg" t="Include" />
+              </e>
+              <e p="product-1.jpg" t="Include" />
+              <e p="product-10.jpg" t="Include" />
+              <e p="product-11.jpg" t="Include" />
+              <e p="product-12.jpg" t="Include" />
+              <e p="product-2.jpg" t="Include" />
+              <e p="product-3.jpg" t="Include" />
+              <e p="product-4.jpg" t="Include" />
+              <e p="product-5.jpg" t="Include" />
+              <e p="product-6.jpg" t="Include" />
+              <e p="product-7.jpg" t="Include" />
+              <e p="product-8.jpg" t="Include" />
+              <e p="product-9.jpg" t="Include" />
+            </e>
+          </e>
+          <e p="js" t="Include">
+            <e p="bootstrap.min.js" t="Include" />
+            <e p="jquery-3.3.1.min.js" t="Include" />
+            <e p="jquery-ui.min.js" t="Include" />
+            <e p="jquery.nice-select.min.js" t="Include" />
+            <e p="jquery.slicknav.js" t="Include" />
+            <e p="main.js" t="Include" />
+            <e p="mixitup.min.js" t="Include" />
+            <e p="owl.carousel.min.js" t="Include" />
+          </e>
+          <e p="sass" t="Include">
+            <e p="_base.scss" t="Include" />
+            <e p="_blog-details.scss" t="Include" />
+            <e p="_blog-sidebar.scss" t="Include" />
+            <e p="_blog.scss" t="Include" />
+            <e p="_breadcrumb.scss" t="Include" />
+            <e p="_checkout.scss" t="Include" />
+            <e p="_contact.scss" t="Include" />
+            <e p="_footer.scss" t="Include" />
+            <e p="_header.scss" t="Include" />
+            <e p="_hero.scss" t="Include" />
+            <e p="_home-page.scss" t="Include" />
+            <e p="_mixins.scss" t="Include" />
+            <e p="_responsive.scss" t="Include" />
+            <e p="_shop-details.scss" t="Include" />
+            <e p="_shop-grid.scss" t="Include" />
+            <e p="_shoping-cart.scss" t="Include" />
+            <e p="_sidebar.scss" t="Include" />
+            <e p="_variable.scss" t="Include" />
+            <e p="style.scss" t="Include" />
+          </e>
+        </e>
         <e p="css" t="Include">
           <e p="site.css" t="Include" />
         </e>

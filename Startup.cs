@@ -48,6 +48,8 @@ namespace SelenYapayZekaGit
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(name: "anasayfa", pattern: "{controller}/{action}/{id?}",
+                    defaults: new {controller = "Anasayfa", action = "Index"});
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
