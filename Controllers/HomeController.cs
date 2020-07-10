@@ -5,7 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using SelenYapayZekaGit.Classes.String;
 using SelenYapayZekaGit.Models;
+
 
 namespace SelenYapayZekaGit.Controllers
 {
@@ -17,9 +19,11 @@ namespace SelenYapayZekaGit.Controllers
         {
             _logger = logger;
         }
-
+        
+        
         public IActionResult Index()
         {
+            ViewBag.Title = "Anasayfa".AsTitle();
             return View();
         }
 
