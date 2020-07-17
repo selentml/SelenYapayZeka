@@ -21,6 +21,7 @@
         <e p="HomeController.cs" t="Include" />
         <e p="KategoriController.cs" t="Include" />
         <e p="SelenTest.cs" t="Include" />
+        <e p="UrunController.cs" t="Include" />
       </e>
       <e p="DAL" t="Include">
         <e p="Classes" t="Include">
@@ -82,6 +83,7 @@
           <e p="_ValidationScriptsPartial.cshtml" t="Include" />
           <e p="Error.cshtml" t="Include" />
         </e>
+        <e p="Urun" t="Include" />
       </e>
       <e p="wwwroot" t="Include">
         <e p="Anasayfa" t="Include">
