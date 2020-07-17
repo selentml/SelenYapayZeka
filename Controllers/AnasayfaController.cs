@@ -17,6 +17,12 @@ namespace SelenYapayZekaGit.Controllers
             return View();
         }
 
+        public string UrunEkle()
+        {
+            return "Başarılı";
+        }
+    
+
         public IActionResult OgrenciBilgi()
         {
             ViewBag.Title = "Öğrenci Bilgi".AsTitle();

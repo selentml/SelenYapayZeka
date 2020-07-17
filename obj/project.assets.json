@@ -5838,33 +5838,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\brk\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ateo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brk\\RiderProjects\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
+      "projectUniqueName": "C:\\Users\\ateo\\Documents\\GitHub\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
       "projectName": "SelenYapayZekaGit",
-      "projectPath": "C:\\Users\\brk\\RiderProjects\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
-      "packagesPath": "C:\\Users\\brk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brk\\RiderProjects\\SelenYapayZeka\\obj\\",
+      "projectPath": "C:\\Users\\ateo\\Documents\\GitHub\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
+      "packagesPath": "C:\\Users\\ateo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ateo\\Documents\\GitHub\\SelenYapayZeka\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\brk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\ateo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5912,7 +5903,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
