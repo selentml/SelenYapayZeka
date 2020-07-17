@@ -3,6 +3,7 @@
   <component name="ContentModelStore">
     <e p="C:\Users\ateo\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
     <e p="C:\Users\ateo\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ateo\AppData\Roaming\JetBrains\Rider2020.1\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\ateo\AppData\Roaming\JetBrains\Rider2020.1\scratches" t="IncludeRecursive" />
     <e p="C:\Users\ateo\Documents\GitHub\SelenYapayZeka" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
@@ -18,12 +19,28 @@
       <e p="Controllers" t="Include">
         <e p="AnasayfaController.cs" t="Include" />
         <e p="HomeController.cs" t="Include" />
+        <e p="KategoriController.cs" t="Include" />
+        <e p="SelenTest.cs" t="Include" />
       </e>
       <e p="DAL" t="Include">
         <e p="Classes" t="Include">
+          <e p="Etiket.cs" t="Include" />
           <e p="Kategori.cs" t="Include" />
+          <e p="Urun.cs" t="Include" />
+          <e p="UrunEtkiket.cs" t="Include" />
         </e>
         <e p="SelenDB.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20200717063834_skeletonDb.cs" t="Include" />
+        <e p="20200717063834_skeletonDb.Designer.cs" t="Include" />
+        <e p="20200717151511_resimUrl.cs" t="Include" />
+        <e p="20200717151511_resimUrl.Designer.cs" t="Include" />
+        <e p="20200717165753_kategoriUpdate.cs" t="Include" />
+        <e p="20200717165753_kategoriUpdate.Designer.cs" t="Include" />
+        <e p="20200717183503_resimUrl2.cs" t="Include" />
+        <e p="20200717183503_resimUrl2.Designer.cs" t="Include" />
+        <e p="SelenDBModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="ErrorViewModel.cs" t="Include" />
@@ -55,6 +72,9 @@
         <e p="Home" t="Include">
           <e p="Index.cshtml" t="Include" />
           <e p="Privacy.cshtml" t="Include" />
+        </e>
+        <e p="Kategori" t="Include">
+          <e p="Liste.cshtml" t="Include" />
         </e>
         <e p="Shared" t="Include">
           <e p="_AnasayfaLayout.cshtml" t="Include" />

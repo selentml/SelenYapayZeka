@@ -3,15 +3,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace SelenYapayZekaGit.DAL.Classes
 {
-    public class Kategori
+    public class Etiket
     {
-        [Key] public int KategoriId { get; set; }
+        [Key] public int EtiketId { get; set; }
         public string Isim { get; set; }
 
-        public string ResimUrl { get; set; }
-
-
-        public List<Urun> Urun { get; set; }
-        
+        public List<UrunEtkiket> UrunEtiket { get; set; }
     }
 }
