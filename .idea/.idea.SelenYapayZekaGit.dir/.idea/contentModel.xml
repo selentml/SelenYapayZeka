@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\fun4c\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\fun4c\.Rider2019.3\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\fun4c\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\fun4c\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_.19.00" t="ExcludeRecursive" />
-    <e p="C:\Users\fun4c\RiderProjects\SelenYapayZekaGit" t="IncludeRecursive">
+    <e p="C:\Users\brk\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\brk\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\brk\AppData\Roaming\JetBrains\Rider2020.1\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\brk\RiderProjects\SelenYapayZeka" t="IncludeRecursive">
+      <e p=".git\info\exclude" t="IncludeRecursive" />
       <e p=".gitignore" t="Include" />
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
@@ -19,6 +19,17 @@
       <e p="Controllers" t="Include">
         <e p="AnasayfaController.cs" t="Include" />
         <e p="HomeController.cs" t="Include" />
+      </e>
+      <e p="DAL" t="Include">
+        <e p="Classes" t="Include">
+          <e p="Kategori.cs" t="Include" />
+        </e>
+        <e p="SelenDB.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20200717050805_createdb.cs" t="Include" />
+        <e p="20200717050805_createdb.Designer.cs" t="Include" />
+        <e p="SelenDBModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="ErrorViewModel.cs" t="Include" />

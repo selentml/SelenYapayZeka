@@ -1,11 +1,15 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\fun4c\\RiderProjects\\SelenYapayZekaGit\\SelenYapayZekaGit.csproj",
+    "projectUniqueName": "C:\\Users\\brk\\RiderProjects\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
     "projectName": "SelenYapayZekaGit",
-    "projectPath": "C:\\Users\\fun4c\\RiderProjects\\SelenYapayZekaGit\\SelenYapayZekaGit.csproj",
-    "outputPath": "C:\\Users\\fun4c\\RiderProjects\\SelenYapayZekaGit\\obj\\",
+    "projectPath": "C:\\Users\\brk\\RiderProjects\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
+    "outputPath": "C:\\Users\\brk\\RiderProjects\\SelenYapayZeka\\obj\\",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Microsoft\\Xamarin\\NuGet",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
@@ -26,6 +30,20 @@
   },
   "frameworks": {
     "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[5.0.0-preview.6.20312.4, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[5.0.0-preview.6.20312.4, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "target": "Package",
+          "version": "[5.0.0-preview.6.20312.4, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",
