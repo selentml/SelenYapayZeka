@@ -52,7 +52,7 @@
                         @if(!string.IsNullOrEmpty(kategori.ResimUrl)){
                             <div class="col-lg-3">
                             <div class="categories__item set-bg" data-setbg="@kategori.ResimUrl">
-                                <h5><a href="#">@kategori.Isim</a></h5>
+                                <h5><a href='/kategori/@kategori.KategoriId'>@kategori.Isim</a></h5>
                             </div>
                         </div>
                         }else{
