@@ -26,5 +26,12 @@ namespace SelenYapayZekaGit.Controllers
             return View();
 
         }
+
+        [Route("urunEkle")]
+        public ActionResult Ekle()
+        {
+            ViewBag.KategoriList = _instance.Kategori.ToList();
+            return View();
+        }
     }
 }

@@ -75,6 +75,7 @@
           <e p="Privacy.cshtml" t="Include" />
         </e>
         <e p="Kategori" t="Include">
+          <e p="Ekle.cshtml" t="Include" />
           <e p="Liste.cshtml" t="Include" />
         </e>
         <e p="Shared" t="Include">
@@ -83,7 +84,9 @@
           <e p="_ValidationScriptsPartial.cshtml" t="Include" />
           <e p="Error.cshtml" t="Include" />
         </e>
-        <e p="Urun" t="Include" />
+        <e p="Urun" t="Include">
+          <e p="Ekle.cshtml" t="Include" />
+        </e>
       </e>
       <e p="wwwroot" t="Include">
         <e p="Anasayfa" t="Include">

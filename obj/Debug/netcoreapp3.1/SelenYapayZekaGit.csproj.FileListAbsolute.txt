@@ -176,3 +176,5 @@ C:\Users\ateo\Documents\GitHub\SelenYapayZeka\obj\Debug\netcoreapp3.1\SelenYapay
 C:\Users\ateo\Documents\GitHub\SelenYapayZeka\obj\Debug\netcoreapp3.1\SelenYapayZekaGit.pdb
 C:\Users\ateo\Documents\GitHub\SelenYapayZeka\obj\Debug\netcoreapp3.1\SelenYapayZekaGit.genruntimeconfig.cache
 C:\Users\ateo\Documents\GitHub\SelenYapayZeka\obj\Debug\netcoreapp3.1\Razor\Views\Kategori\Liste.cshtml.g.cs
+C:\Users\ateo\Documents\GitHub\SelenYapayZeka\obj\Debug\netcoreapp3.1\Razor\Views\Urun\Ekle.cshtml.g.cs
+C:\Users\ateo\Documents\GitHub\SelenYapayZeka\obj\Debug\netcoreapp3.1\Razor\Views\Kategori\Ekle.cshtml.g.cs
