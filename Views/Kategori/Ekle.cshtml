@@ -5,52 +5,76 @@
 }
 
 <section class="checkout spad">
-        <div class="container">
+    <div class="container">
             
-            <div class="checkout__form">
-                <h4>Ürün Ekleme</h4>
-                <form action="#">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-6">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Ürün Isim<span>*</span></p>
-                                        <input name="urunIsim" id="urunIsim" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Ürün ResimUrl</p>
-                                        <input name="resimUrl" id="resimUrl" type="text">
-                                    </div>
+        <div class="checkout__form">
+            <h4>Ürün Ekleme</h4>
+            <form action="#">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Ürün Isim<span>*</span></p>
+                                    <input name="urunIsim" id="urunIsim" type="text">
                                 </div>
                             </div>
-                            <div class="checkout__input">
-                                <p>Kategori<span>*</span></p>
-                                <select class="form-control" id="kategori" name="kategori">
-                                    <option value="-1">Kategori Seç</option>
-                                   @{
-                                       foreach (var kategori in kategoriList)
-                                       {
-                                           <option value="@kategori.KategoriId">@kategori.Isim</option>
-                                       }
-                                   }
-                                </select>
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Ürün ResimUrl</p>
+                                    <input name="resimUrl" id="resimUrl" type="text">
+                                </div>
                             </div>
-                            <br/>
-                            <br/>
-                            <br/>
-                             <div class="checkout__input">
-                                                            <p>Etiket<span>*</span></p>
-                                                            <input type="text">
-                                                        </div>
+                        </div>
+                        <div class="checkout__input">
+                            <p>Kategori<span>*</span></p>
+                            <select class="form-control" id="kategori" name="kategori">
+                                <option value="-1">Kategori Seç</option>
+                                @{
+                                    foreach (var kategori in kategoriList)
+                                    {
+                                        <option value="@kategori.KategoriId">@kategori.Isim</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div class="checkout__input">
+                            <p>Etiket<span>*</span></p>
+                            <input name="etiket" id="etiket" type="text">
+                        </div>
+                        <div class="checkout__input">
+                                                    <p>Onayla<span>*</span></p>
+                                                    <input value="Onayla" type="submit">
+                                                </div>
                       
                           
-                        </div>
-                        
                     </div>
-                </form>
-            </div>
+                        
+                </div>
+            </form>
         </div>
-    </section>
+    </div>
+</section>
+
+<script>
+$(function() {
+  $('form').on("submit",function(e) {
+      $.ajax({
+      method :'post',
+      url :' @Url.Action("UrunEkle","SelenApi")',
+      data : $('form').serialize()
+      }).done(function(yanit) {
+          console.log(yanit);
+        if(yanit._durum){
+            swal("Başarılı",yanit._mesaj,"success");
+        }else{
+            swal("Hata",yanit._mesaj,"error");
+        }
+      });
+    e.preventDefault();
+  })
+})
+</script>

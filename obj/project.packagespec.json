@@ -1,19 +1,15 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\selen\\RiderProjects\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
+    "projectUniqueName": "C:\\Users\\ateo\\Documents\\GitHub\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
     "projectName": "SelenYapayZekaGit",
-    "projectPath": "C:\\Users\\selen\\RiderProjects\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
-    "outputPath": "C:\\Users\\selen\\RiderProjects\\SelenYapayZeka\\obj\\",
+    "projectPath": "C:\\Users\\ateo\\Documents\\GitHub\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
+    "outputPath": "C:\\Users\\ateo\\Documents\\GitHub\\SelenYapayZeka\\obj\\",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "D:\\Microsoft\\Xamarin\\NuGet"
-    ],
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
@@ -71,7 +67,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
     }
   }
 }
