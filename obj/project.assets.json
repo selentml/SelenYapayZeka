@@ -4868,24 +4868,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ateo\\.nuget\\packages\\": {}
+    "C:\\Users\\selen\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ateo\\Documents\\GitHub\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
+      "projectUniqueName": "C:\\Users\\selen\\RiderProjects\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
       "projectName": "SelenYapayZekaGit",
-      "projectPath": "C:\\Users\\ateo\\Documents\\GitHub\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
-      "packagesPath": "C:\\Users\\ateo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ateo\\Documents\\GitHub\\SelenYapayZeka\\obj\\",
+      "projectPath": "C:\\Users\\selen\\RiderProjects\\SelenYapayZeka\\SelenYapayZekaGit.csproj",
+      "packagesPath": "C:\\Users\\selen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\selen\\RiderProjects\\SelenYapayZeka\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Microsoft\\Xamarin\\NuGet"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ateo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\selen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4943,7 +4950,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
